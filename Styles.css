@@ -2,10 +2,6 @@ body{
 	background-color: #D3D3D3;
 }
 
-
-.Videography{
-	background-color:#D3D3D3;
-}
 video{
 }
 
@@ -33,7 +29,45 @@ li a:hover{
 	background-color: #111;
 }
 
+
+#Videography{
+	background-color:#D3D3D3;
+	padding-right: 5em;
+	padding-left: 5em;
+	overflow:hidden;
+}
+
+#Videography p{
+	padding-right:5em;
+}
+
 #VideographyVid {
+	padding-top: 0;
+	padding-left: 2em;
 	float:right;
 	vertical-align: middle;
 }
+
+#VolumetricReadings{
+	Background-color:white;
+	padding-right: 5em;
+	padding-left: 5em;
+	overflow: hidden;
+
+}
+
+#VolumetricVid{
+	padding-top: 1em;
+	padding-right: 1em;
+	float: left;
+}
+
+#VolumetricReadings h1{
+	text-align: right;
+}
+
+#ContactUs{
+	padding-right: 5em;
+	padding-left: 5em;
+	background-color: #D3D3D3;
+	}
