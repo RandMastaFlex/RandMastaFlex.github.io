@@ -30,44 +30,39 @@ li a:hover{
 }
 
 
-#Videography{
+#textSectionGray{
 	background-color:#D3D3D3;
 	padding-right: 5em;
 	padding-left: 5em;
 	overflow:hidden;
+	text-align: center;
 }
 
-#Videography p{
-	padding-right:5em;
+#textSectionWhite{
+	background-color: white;
+	padding-right: 5em;
+	padding-left: 5em;
+	overflow: hidden;
+	text-align: center;
 }
 
-#VideographyVid {
-	padding-top: 0;
+#videoRight {
+	padding-top: 1em;
 	padding-left: 2em;
 	float:right;
 	vertical-align: middle;
 }
 
-#VolumetricReadings{
-	Background-color:white;
-	padding-right: 5em;
-	padding-left: 5em;
-	overflow: hidden;
 
-}
-
-#VolumetricVid{
+#videoLeft{
 	padding-top: 1em;
 	padding-right: 1em;
 	float: left;
 }
 
-#VolumetricReadings h1{
-	text-align: right;
-}
 
 #ContactUs{
 	padding-right: 5em;
 	padding-left: 5em;
-	background-color: #D3D3D3;
+	background-color: white;
 	}
