@@ -1,8 +1,11 @@
 body{
+	text-align: center;
 	background-color: #D3D3D3;
 }
 
 video{
+
+	width:90%;
 }
 
 ul{
@@ -66,3 +69,17 @@ li a:hover{
 	padding-left: 5em;
 	background-color: white;
 	}
+
+
+#textLeft{
+	position:relative;
+	width: 40%;
+	margin-left: 10em;
+	font-size: 1.5em;
+}
+#textRight{
+	float:right;
+	width: 40%;
+	margin-right: 10em;
+	font-size: 1.5em;
+}
