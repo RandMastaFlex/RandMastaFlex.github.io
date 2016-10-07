@@ -17,7 +17,12 @@ nav{
 	display: none;
 }
 
-#navUl{
+iframe{
+
+	border: none;
+}
+
+.navUl{
 	list-style-type: none;
 	margin:0;
 	padding:0;
@@ -25,11 +30,11 @@ nav{
 	background-color: #333;
 }
 
-#navli{
+.navli{
 	float:left;
 }
 
-#navA{
+.navA{
 	display:block;
 	color:white;
 	text-align: center;
@@ -37,12 +42,12 @@ nav{
 	text-decoration: none;
 }
 
-#navA:hover{
+.navA:hover{
 	background-color: #111;
 }
 
 
-#textSectionGray{
+.textSectionGray{
 	background-color:#D3D3D3;
 	padding-right: 5em;
 	padding-left: 5em;
@@ -50,7 +55,7 @@ nav{
 	text-align: center;
 }
 
-#textSectionWhite{
+.textSectionWhite{
 	background-color: white;
 	padding-right: 5em;
 	padding-left: 5em;
@@ -58,7 +63,7 @@ nav{
 	text-align: center;
 }
 
-#videoRight {
+.videoRight {
 	padding-top: 1em;
 	padding-left: 2em;
 	float:right;
@@ -66,7 +71,7 @@ nav{
 }
 
 
-#videoLeft{
+.videoLeft{
 	padding-top: 1em;
 	padding-right: 2em;
 	float: left;
@@ -83,13 +88,13 @@ nav{
 	}
 
 
-#textLeft{
+.textLeft{
 	position:relative;
 	width: 40%;
 	margin-left: 10em;
 	font-size: 1.5em;
 }
-#textRight{
+.textRight{
 	float:right;
 	width: 40%;
 	margin-right: 10em;
