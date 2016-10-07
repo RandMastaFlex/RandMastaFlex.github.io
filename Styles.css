@@ -1,14 +1,23 @@
+
 body{
 	text-align: center;
 	background-color: #D3D3D3;
 }
 
 video{
-
-	width:90%;
+	height: 100%;
+	width: 100%;
 }
 
 ul{
+	text-align: left;
+}
+
+nav{
+	display: none;
+}
+
+#navUl{
 	list-style-type: none;
 	margin:0;
 	padding:0;
@@ -16,11 +25,11 @@ ul{
 	background-color: #333;
 }
 
-li{
+#navli{
 	float:left;
 }
 
-li a{
+#navA{
 	display:block;
 	color:white;
 	text-align: center;
@@ -28,7 +37,7 @@ li a{
 	text-decoration: none;
 }
 
-li a:hover{
+#navA:hover{
 	background-color: #111;
 }
 
@@ -59,15 +68,18 @@ li a:hover{
 
 #videoLeft{
 	padding-top: 1em;
-	padding-right: 1em;
+	padding-right: 2em;
 	float: left;
 }
 
 
-#ContactUs{
+#contactForm{
 	padding-right: 5em;
 	padding-left: 5em;
 	background-color: white;
+	text-align: left;
+	margin-bottom: 5em;
+	font-size: 1.5em;
 	}
 
 
@@ -82,4 +94,39 @@ li a:hover{
 	width: 40%;
 	margin-right: 10em;
 	font-size: 1.5em;
+}
+
+#vidContainer{
+	position:relative;
+	height:70%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+	#textRight,#textSectionWhite,#textLeft,#textSectionGray,#contactForm{
+		text-align: center;
+		padding: 0;
+		margin: 0em;
+		width: 100%;
+		font-size: 1em;
+	}
+	body{
+		padding:0;
+	}
+	nav{
+		display: block;
+	}
+	
+	
 }
