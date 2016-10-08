@@ -119,7 +119,7 @@ iframe{
 
 
 @media screen and (max-width: 1024px){
-	#textRight,#textSectionWhite,#textLeft,#textSectionGray,#contactForm{
+	.textRight,.textSectionWhite,.textLeft,.textSectionGray,#contactForm{
 		text-align: center;
 		padding: 0;
 		margin: 0em;
