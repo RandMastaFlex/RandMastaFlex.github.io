@@ -46,14 +46,21 @@
 	</div>
 
 </nav>
+
+<div class="videoPadding">
 	<div id="vidContainer">
 		<video autoplay muted loop>
 			<source src="BrunswickVideo.mp4" type="video/mp4">
 		</video>
 	</div>
+</div>
+	<div class="vidOverlay">
+		<p id="welcomeText">Welcome to Innovation</p>
+		<p id="welcomeParagraph">In a time of technological advances, let drones work for you.</p>
+	</div>
 	
 	<div class="textSectionWhite">
-		<iframe class="videoLeft" width="560" height="315" src="https://www.youtube.com/embed/1vXSjSQOH14" allowfullscreen></iframe>
+		<iframe class="videoLeft" src="https://www.youtube.com/embed/1vXSjSQOH14" allowfullscreen></iframe>
 			<div class="textRight">
 				<h1>Real Estate</h1>
 				<ul>
@@ -65,8 +72,8 @@
 			</div>
 	</div>
 
-	<div id="textSectionGray">
-		<iframe class="videoRight" width="560" height="315" src="https://www.youtube.com/embed/uIR72cMMQac" allowfullscreen></iframe>
+	<div class="textSectionGray">
+		<iframe class="videoRight"  src="https://www.youtube.com/embed/uIR72cMMQac" allowfullscreen></iframe>
 		<div class="textLeft">
 			<h1>Aerial 4K video </h1>
 			<ul>
@@ -84,19 +91,23 @@
 		<h1>Delegate Today</h1>
 		<div id="contactForm">
 			<form method="post" name="myemailform" action="https://formspree.io/DroneDelegation@gmail.com">
+
+
 			First Name:
-				<input type="text" name="firstName"><br><br>
+				<input type="text" name="firstName" placeholder="First Name"><br><br>
 			Last Name:
-				<input type="text" name="lastName">
+				<input type="text" name="lastName" placeholder="Last Name">
 				<br><br>
-			Email Address:
+			Email:&emsp; &emsp;
 				<input type="text" name="email" placeholder="Your Email">
 				<br><br>
-			Message:<br>
-			<textarea name="message" rows="10" cols="30">
-			Inquire here!
+				<div id="contactMessage">
+						Message:<br>
+						<textarea placeholder="Inquire Here!" name="message" rows="5" cols="80">
+			
 
-			</textarea>
+						</textarea>
+				</div>
 			<input type="submit" value="Submit">
 
 			</form>

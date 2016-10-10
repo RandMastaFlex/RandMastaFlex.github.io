@@ -1,7 +1,11 @@
 
 body{
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
 	text-align: center;
-	background-color: #D3D3D3;
+	background-color: black;
 }
 
 video{
@@ -19,7 +23,11 @@ nav{
 
 iframe{
 
+	width: 25%;
+	height: 300px;
 	border: none;
+	
+
 }
 
 #navUl{
@@ -48,33 +56,39 @@ iframe{
 
 
 .textSectionGray{
-	background-color:#D3D3D3;
+	position:relative;
 	padding-right: 5em;
 	padding-left: 5em;
-	overflow:hidden;
 	text-align: center;
+	overflow: hidden;
+	z-index: 1;
+	background-color: #D3D3D3;
 }
 
 .textSectionWhite{
+	position: relative;
 	background-color: white;
 	padding-right: 5em;
 	padding-left: 5em;
-	overflow: hidden;
 	text-align: center;
+	overflow:hidden;
+	z-index: 1;
 }
 
 .videoRight {
+	position:absolute;
 	padding-top: 1em;
 	padding-left: 2em;
-	float:right;
 	vertical-align: middle;
+	right:10%;
 }
 
 
 .videoLeft{
+	position:absolute;
 	padding-top: 1em;
 	padding-right: 2em;
-	float: left;
+	left:10%;
 }
 
 
@@ -89,7 +103,7 @@ iframe{
 
 
 .textLeft{
-	position:relative;
+	position: relative;
 	width: 40%;
 	margin-left: 10em;
 	font-size: 1.5em;
@@ -101,10 +115,50 @@ iframe{
 	font-size: 1.5em;
 }
 
+
 #vidContainer{
 	position:relative;
-	height:70%;
+	height:100%
 	width: 100%;
+	z-index: -100;
+}
+
+.videoPadding{
+	position: relative;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.vidOverlay{
+	color:white;
+	width: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	text-align: center;
+	
+
+	
+}
+#welcomeText{
+	font-size: 7em;
+	padding-top: 2em;
+}
+#welcomeParagraph{
+	font-size:3em;
+	padding-top:1em;
+}
+
+#contactMessage{
+	position:absolute;
+	right:0;
+	top:20%;
+
 }
 
 
@@ -116,15 +170,17 @@ iframe{
 
 
 
-
-
 @media only screen and (max-width: 1024px){
-	.textRight,.textSectionWhite,.textLeft,.textSectionGray,#contactForm{
+	.textRight,.textSectionWhite,.textLeft,.textSectionGray,
+	#contactForm,#welcomeParagraph,#welcomeText{
 		text-align: center;
 		padding: 0;
 		margin: 0em;
 		width: 100%;
 		font-size: 1em;
+	}
+	#contactMessage,.videoRight,.videoLeft{
+		position:static;
 	}
 	body{
 		padding:0;
@@ -132,6 +188,7 @@ iframe{
 	nav{
 		display: block;
 	}
+
 	
 	
 }
