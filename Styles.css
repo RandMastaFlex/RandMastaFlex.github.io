@@ -113,13 +113,13 @@ nav{
 	position: relative;
 	float:left;
 	width: 40%;
-	margin-left: 10em;
+	margin-left: 5em;
 	font-size: 1.5em;
 }
 .textRight{
 	float:right;
 	width: 40%;
-	margin-right: 10em;
+	margin-right: 5em;
 	font-size: 1.5em;
 }
 
@@ -155,16 +155,18 @@ nav{
 }
 #welcomeText{
 	font-size: 7em;
-	padding-top: 2em;
+	padding-top: 2.5em;
+	text-shadow: 2px 2px #000;
 }
 #welcomeParagraph{
 	font-size:3em;
 	padding-top:1em;
+	text-shadow: 2px 2px #000;
 }
 
 #contactMessage{
 	position:absolute;
-	right:0;
+	right:5%;
 	top:20%;
 
 }
@@ -183,9 +185,10 @@ nav{
 	#contactForm,#welcomeParagraph,#welcomeText{
 		text-align: center;
 		padding: 0;
-		margin: 0em;
+		margin: 0 auto;
 		width: 100%;
 		font-size: 1em;
+		float:none;
 	}
 	#contactMessage{
 		position:static;
@@ -193,6 +196,8 @@ nav{
 	.videoLeft,.videoRight{
 		float:none;
 		margin:0 auto;
+		width: 100%;
+		padding-bottom: 50%;
 	}
 	body{
 		padding:0;
