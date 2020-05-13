@@ -84,6 +84,7 @@ nav ul li a:link , nav ul li a:visited{
     display:block;
     margin:0;
     padding:1em;
+    color:black;
 }
 .quoteButton a:hover, .quoteButton a:visited {
     color:black;
